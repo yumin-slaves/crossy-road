@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 project(
     CppProject
     VERSION 0.1
-    DESCRIPTION "Crossy Road Cloning Project"
+    DESCRIPTION "crossy-road-clone"
     LANGUAGES CXX
 )
 
