@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 
 int main() {
+    //안녕하세요
+    
     sf::RenderWindow window(sf::VideoMode(800, 600), "Hello SFML");
     window.setVerticalSyncEnabled(false);
 
