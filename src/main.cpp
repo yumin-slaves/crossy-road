@@ -2,13 +2,14 @@
 #include <SFML/Graphics.hpp>
 
 int main() {
+    // hi sdfasdffasd
     sf::RenderWindow window(sf::VideoMode(800, 600), "Hello SFML");
     window.setVerticalSyncEnabled(false);
 
     sf::Texture texture;
     if (!texture.loadFromFile("assets/images/lostark_never_die.jpg")) {
         std::cerr << "Error in Loading Image" << std::endl;
-    }
+    }ㅉㅉ
     sf::Sprite sprite(texture);
     
     // 폰트 설정
