@@ -9,7 +9,7 @@ int main() {
     sf::Texture texture;
     if (!texture.loadFromFile("assets/images/lostark_never_die.jpg")) {
         std::cerr << "Error in Loading Image" << std::endl;
-    }ㅉㅉ
+    }
     sf::Sprite sprite(texture);
     
     // 폰트 설정
